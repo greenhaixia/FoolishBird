@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "FoolishBird"
-  s.version      = "3.0.0"
+  s.version      = "1.0.0"
   s.summary      = "FoolishBird."
   s.homepage     = "https://github.com/greenhaixia/FoolishBird"
   s.license      = { :type => "MIT", :file => "LICENSE" }
