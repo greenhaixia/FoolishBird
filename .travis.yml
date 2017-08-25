@@ -5,4 +5,4 @@ env:
   - ACTION=test  PLATFORM=iOS     DESTINATION='platform=iOS Simulator,name=iPhone 6S'
 
 script:
-  - set -o pipefail && xcodebuild clean -project FolishBird.xcodeproj -scheme FolishBird
+  - set -o pipefail && xcodebuild -list
