@@ -1,3 +1,8 @@
-language:objective-c
-xcode_project:./FolishBird.xcodeproj
-xcode_scheme:FolishBird
+language: objective-c
+osx_image: xcode8
+
+env:
+  - ACTION=test  PLATFORM=iOS     DESTINATION='platform=iOS Simulator,name=iPhone 6S'
+
+script:
+  - set -o pipefail && xcodebuild -scheme FolishBird -destination "$DESTINATION" $ACTION | xcpretty
