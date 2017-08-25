@@ -6,3 +6,4 @@ env:
 
 script:
   - set -o pipefail && xcodebuild -list
+  - xcodebuild clean -project FolishBird.xcodeproj
