@@ -1,0 +1,4 @@
+language:objective-c
+xcode_project:./FolishBird.xcodeproj
+xcode_scheme:FolishBird
+osx_image:xcode8.3
